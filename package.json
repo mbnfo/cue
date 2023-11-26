@@ -2,7 +2,7 @@
   "name": "front-end",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/mbnfo/flash-cards",
+  "homepage": "https://mbnfo.github.io/flash-cards",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
