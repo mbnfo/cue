@@ -9,7 +9,7 @@ const CreateFlash = () =>{
 
         let createPack = async (e) => {
             e.preventDefault()
-            await fetch(`http://127.0.0.1:8000/api/createflash/`, {
+            await fetch(`https://cuecard.pythonanywhere.com/api/createflash/`, {
                 method: 'POST', 
                 headers :{
                     'Content-Type': 'application/json',

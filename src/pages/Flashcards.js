@@ -16,7 +16,7 @@ const Flashcards = ({match}) => {
     }, [flash])
 
     let flashpack = async () => {
-        let response = await fetch(`http://127.0.0.1:8000/api/flashpack/${flashpackId}`, {
+        let response = await fetch(`https://cuecard.pythonanywhere.com/api/flashpack/${flashpackId}`, {
             method : 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -28,7 +28,7 @@ const Flashcards = ({match}) => {
     }
 
     let createCard = async () =>{
-         await fetch ('http://127.0.0.1:8000/api/createcard/', {
+         await fetch ('https://cuecard.pythonanywhere.com/api/createcard/', {
             method: 'POST', 
             headers : {
                 'Content-Type': 'application/json',

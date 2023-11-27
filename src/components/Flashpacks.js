@@ -13,7 +13,7 @@ const Flashpacks = () => {
         // eslint-disable-next-line
     }, [discover])
      let getCards = async () => {
-        let response = await fetch(`http://127.0.0.1:8000/api/flash/${discover}/`, {
+        let response = await fetch(`https://cuecard.pythonanywhere.com/api/flash/${discover}/`, {
             method : 'GET',
             headers:{
                 'Content-Type': 'application/json',
