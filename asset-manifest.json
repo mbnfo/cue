@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/simple-flash-cards/static/css/main.a5661321.css",
-    "main.js": "/simple-flash-cards/static/js/main.59dca8f8.js",
-    "index.html": "/simple-flash-cards/index.html",
-    "main.a5661321.css.map": "/simple-flash-cards/static/css/main.a5661321.css.map",
-    "main.59dca8f8.js.map": "/simple-flash-cards/static/js/main.59dca8f8.js.map"
+    "main.css": "/cue/static/css/main.a5661321.css",
+    "main.js": "/cue/static/js/main.59dca8f8.js",
+    "index.html": "/cue/index.html",
+    "main.a5661321.css.map": "/cue/static/css/main.a5661321.css.map",
+    "main.59dca8f8.js.map": "/cue/static/js/main.59dca8f8.js.map"
   },
   "entrypoints": [
     "static/css/main.a5661321.css",
