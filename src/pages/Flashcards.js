@@ -59,8 +59,8 @@ const Flashcards = ({match}) => {
         <body>
             <header>
                 <button id = 'simple-button'  onClick = {logoutUser}>Logout</button>
-                <button id = 'simple-button'>home</button>
-                <button id = 'simple-button'>+</button>
+                <Link to = {'/'} id = 'simple-button'>home</Link>
+                <Link to = {'/createpack'} id = 'simple-button'>+</Link>
                 <h5> signed in as {user.username}</h5>
             </header>
         
