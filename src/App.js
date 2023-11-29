@@ -4,7 +4,7 @@ import PrivateRoute from './utils/PrivateRoute'
 import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import {
-BrowserRouter as Router,
+HashRouter as Router,
 Route,
 Switch
 } from 'react-router-dom'
