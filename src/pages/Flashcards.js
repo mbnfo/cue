@@ -1,6 +1,8 @@
 import React, { useContext, useState, useEffect } from 'react'
 import AuthContext from '../context/AuthContext';
 import './flashcards.css'
+import { Link } from 'react-router-dom'
+
 
 const Flashcards = ({match}) => {
     let flashpackId = match.params.id
