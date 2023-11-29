@@ -1,5 +1,6 @@
 import React,{ useState, useContext, useEffect}  from 'react'
 import AuthContext from '../context/AuthContext'
+import { Link } from 'react-router-dom'
 
 
 const Flashpacks = () => {
@@ -32,14 +33,14 @@ const Flashpacks = () => {
     return (
         <div class="card-grid">
                 {cards.map(card => (
-                    <a href={`/flashpack/${card.id}`} key={card.id}>
+                    <Link to = {`/flashpack/${card.id}`} key={card.id}>
                         <div class="card">
                             <div class = 'card-text'>
                                 <h3>{card.name}</h3>
                                 <h5>{card.category}</h5>
                             </div>
                         </div>
-                    </a>
+                    </Link>
                 ))}
                 <button id="simple-button" onClick={() => setDiscover(!discover)}>discover packs!</button>
         </div>
