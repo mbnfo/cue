@@ -22,9 +22,9 @@ const CreateFlash = () =>{
     
 
     return (
-        <div>
+        <div id = 'form-section'>
             <form onSubmit = {createPack}>
-                <input type = 'text' name = 'name'/>
+                <input type = 'text' name = 'name' placeholder = 'Name your cue cards pack'/>
                 <input type = 'submit'/>
             </form>
         </div>
