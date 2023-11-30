@@ -18,7 +18,7 @@ const CreateFlash = () =>{
                 },
                 body : JSON.stringify({'name' : e.target.name.value})
             })
-            window.location.href = '/cue'
+            window.location.href = '/#'
 
         }
     
