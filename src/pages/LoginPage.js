@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 import AuthContext from '../context/AuthContext';
+import { Link } from 'react-router-dom'
 
 const LoginPage = () => {
     let{loginUser} = useContext(AuthContext)
@@ -18,6 +19,7 @@ const LoginPage = () => {
                     </div>
                     <button type="submit" id="submit-button">Login</button>
                 </form>
+                <Link to = '/login'>already have an account? login</Link>
             </div>
         </body>
     )
