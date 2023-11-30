@@ -33,6 +33,7 @@ export const AuthProvider = ({children}) =>{
         if(response.status === 200){
             login(data)
             console.log(data)
+            window.location.href = '/cue'
         }
         else{
             alert('something went wrong')
@@ -50,7 +51,7 @@ export const AuthProvider = ({children}) =>{
         })
         console.log(response)
         if(response.status === 200){
-            window.location.href = '/login'
+            window.location.href = '/cue/#login'
         }
     }
 
