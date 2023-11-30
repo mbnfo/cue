@@ -16,7 +16,7 @@ const CreateFlash = () =>{
                     'Content-Type': 'application/json',
                     'Authorization': 'Bearer ' + String(authTokens.access)
                 },
-                body : JSON.stringify({'name' : e.target.name.value} )
+                body : JSON.stringify({'name' : e.target.name.value})
             })
 
         }
